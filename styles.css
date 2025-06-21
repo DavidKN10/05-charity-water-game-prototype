@@ -13,3 +13,57 @@ Secondary Colors:
 - Pink:       #F16061
 
 */
+
+body {
+    font-family: sans-serif;
+    background-color: #8bd1cb;
+    color: white;
+    text-align: center;
+}
+
+#game-container {
+    margin: 20px auto;
+    width: fit-content;
+    padding: 20px;
+    background-color: #9c6b52;
+    border-radius: 8px;
+}
+
+#logo {
+    background: white;
+    padding: 8px 16px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 1px;
+    margin: 10px auto;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    background-color: #d4b47d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.info-bar {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    pointer-events: none;
+}
