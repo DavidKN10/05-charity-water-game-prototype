@@ -9,12 +9,20 @@
 <body>
     <div id="game-container">
         <div id="logo">
-            charity: water
+            <img src="img/cw_logo_horizontal.png" alt="charity: water logo">
+            <br>
+            <h2>Pipeline To Change</h2>
         </div>
         <div id="grid">
         </div>
         <div class="info-bar">
             Level 1-1 <span id="timer">Time: 0:00</span>
+        </div>
+        <!-- Win message, hidden by default -->
+        <div id="win-message" style="display: none;">
+            🎉 You win! 🎉
+            <br>
+            <button id="restart-btn">Restart Game</button>
         </div>
     </div>
     <script src="script.js"></script>
